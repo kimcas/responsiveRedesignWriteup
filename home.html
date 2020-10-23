@@ -2,13 +2,188 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Responsive Redesign</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8">
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <header>
+      <h1 class="title">Responsive Redesign 	&#127775</h1>
+      <p class="overview">For this project, I chose to redesign the website of my favorite local coffee shop at home. I first analyzed
+        the usability of the website, specifically the home page, and proceded to make changes of the design.
+      </p>
+    </header>
+    <section class="original">
+      <h2>Original Website</h2>
+      <p class="originalText">Here are a few screenshots of the original website along with a link to the site</p>
+      <div class="buttonCenter">
+        <a class="linkToOriginal" href="https://myanthemcoffee.com/" target="_blank">Link to Original Website</a>
+      </div>
+      <div class="originalScreenshots">
+        <img class="screenshot" src="images/1.png" alt="Screenshot of Anthem Coffee">
+        <img class="screenshot" src="images/2.png" alt="Screenshot of Anthem Coffee">
+        <img class="screenshot" src="images/4.png" alt="Screenshot of Anthem Coffee">
+        <img class="screenshot" src="images/5.png" alt="Screenshot of Anthem Coffee">
+        <img class="screenshot" src="images/7.png" alt="Screenshot of Anthem Coffee">
+        <img class="screenshot" src="images/10.png" alt="Screenshot of Anthem Coffee">
+      </div>
+    </section>
+    <section class="usability">
+      <h2>Identifying Usability Problems</h2>
+      <p>In order to determine the usability of the website, I focused on four categories: 
+        usability, learnability, memorability, and efficiency.</p>
+      <div class="usabilityDiv">
+        <h3>Usability</h3>
+        <p class="usabilityText">The website was hard to navigate due to the inconsistent font sizes, 
+          contrast errors, and length of the page. While a one page website is 
+          faster to render, the sizes of each section were larger than the content 
+          provided, and part of that was due to the irregular font sizes (either 
+          huge or super small). Some sections were also unnecessary and distracted 
+          from the major points and information of the website, which was distracting 
+          and caused the page to be longer than expected. The sections where the font 
+          is super small, such as the drink menu and the values sections are additionally 
+          hard to read due to the font choice and how the letter-spacing is very compact. 
+          The order of the layout is also a bit confusing and the flow of the read seems 
+          very rigid. For example, the different menus are split up by a different section
+          about vendors. </p>
+      </div>
+      <div class="usabilityFlex">
+      <div class="learnability">
+        <h3>Learnability</h3>
+        <p class="learnabilityText">While the overall layout of this website makes 
+          usability difficult, a user would still be able to learn how to use the 
+          website as the purpose of the website is mainly informational. There is 
+          little interaction for the user to do (at most watching a video of going 
+          to a new page), and the links are clearly formatted as a button. </p>
+      </div>
+      <div class="memorability">
+        <h3>Memorability</h3>
+        <p class="memorabilityText">Similar to learnability, a user would be able 
+          to easily memorize how to use this website. The nav bar is in the 
+          traditional spot and the links are clearly marked. However, a user may 
+          have a difficult time remembering the order of the sections, making it 
+          difficult to navigate and find information on the page. </p>
+      </div>
+      <div class="efficiency">
+        <h3>Efficiency</h3>
+        <p class="efficiencyText">The efficiency of the page is not ideal in that
+          there are many sections that are not essential or practical to have on 
+          the home page and that could be linked to separate pages. Due to this, 
+          the user needs to scroll for a while to reach the end of the page.
+        </p>
+      </div>
+      </div>  
+    </section>
+    <section class="accessability">
+      <h2>Accessability</h2>
+      <p class="accessabilityText">When inputting Anthem's website in WAVE, 
+        there were 66 contrast errors and 76 other alerts refering to empty buttons,
+        redundant buttons, etc. As stated above, Anthem's small and white text over a background 
+        image is often hard to read especially with someone with visual impairments. 
+        When doing the screenread test, many of their images lacked alt text, so, again,
+        someone with visual impairments would have a very difficult time navigatign the website.
+      </p>
+    </section>
+    <section class="lofi">
+      <h2>Lo-Fi Prototypes</h2>
+      <p>After analyzing the overall usability of the website, I began to redesign
+        the website. I first started by sketching a lofi prototype to determine the 
+        new layout and structure of the page. 
+      </p>
+      <div class="lofiPrototypes">
+        <img class="desktoplo" alt="desktop" src="images/desktopLofi.png">
+        <img class="tabletlo" alt="tablet" src="images/TabletLofi2.png">
+        <img class="phonelo" alt="desktop" src="images/phonelofi2.png">
+      </div>
+      <ol>
+        <li>Change hero section to be shorter so it fits on the screen without scrolling. 
+          Make font and text visible when page loads instead of scrolling. 
+        </li>
+        <li>Change section with mission and values to "Who we are section". 
+          Create a link for users to read more about their values. This section is 
+          shorter and more compact so the user gets essential information
+        </li>
+        <li>
+          Make font larger and change font to a more legible font. Make background image
+          darker so the text pops out more and is easier to read. Decrease number of 
+          drinks listed to make the section shorter and have a link to a full menu instead.
+        </li>
+        <li>
+          Make the whole vendor section visible on one screen without scrolling. 
+          Make graphic smaller and font smaller so that it all fits in one section.
+        </li>
+        <li>
+          Make location images smaller so that more fit in the space given. making
+          a grid allows for more utility of space. 
+        </li>
+      </ol>
+    </section>
+    <section class="hifi">
+      <h2>Hi-Fi Prototypes</h2>
+      <p>After creating Lo-Fi prototypes, I used Figma to create Hi-Fi prototypes 
+        to create a design that will look just like the final product. I imported photos
+        and created more stylistic buttons/links to make the prototype look more 
+        finished.
+      </p>
+      <div class="hifiPrototypes">
+        <img class="desktophi" alt="desktop" src="images/Group 6.png">
+        <img class="tablethi" alt="tablet" src="images/Group 7.png">
+        <img class="phonehi" alt="desktop" src="images/Group 8.png">
+      </div>
+      <ol>
+        <li>Create a linear gradient (to right) on the background image to make text pop.
+        </li>
+        <li>Create a grid for the drink and descriptions. Center in the middle. 
+          Button opacity in this section is between 0.8-1. When button is hovered, 
+          opacity is decreased. 
+        </li>
+        <li>Create linear gradient(to right) to make text pop.</li>
+        <li>Create a grid for locations. Use repeat(4, 1fr) so it is easy to 
+          change when making page responsive. When hovering over grid item, scale by 1.05
+          so user knows it is a link.
+        </li>
+        <li>Make hero title and subtitle centered to accomodate for different screen size. 
+        </li>
+        <li>change flex-direction to column-reverse to accomodate for different screen size.
+          Red button gets a shade darker when hovered.
+        </li>
+        <li>Change grid to have 2 columns instead of 3. Move items to left since most
+          users scan the page in an F shape. Buttons still have less opacity when hovered/held down for tablet.
+        </li>
+        <li>Change flex direction for both container and buttons to make everything stacked to accomodate
+          for different screen size. Buttons the same as in "Who We Are" section. 
+        </li>
+        <li>Change number of columns to 2 on grid. Make the grid 4x2 instead of 2x4</li>
+        <li>Make grid have one column and align to left to account for F shape scanning</li>
+        <li>Move title and button to center of screen to make it looked more balanced for 
+          this screen size. 
+        </li>
+        <li>Make number of columns on grid 1 to account for small screen. </li>
+      </ol>
+    </section>
+    <section class="styleguide">
+      <h2>Visual Style Guide</h2>
+      <p>Below is the visual style guide for my redesigned page. There are some interactive components
+        and the buttons are reused throughout the page. 
+      </p>
+      <img class="styleImage" src="images/styleGuide.png">
+    </section>
+    <section class="finalProduct">
+      <h2>Redesigned Website</h2>
+      <p>In this project, I learned the value of lo-fi and hi-fi prototyping and how 
+        those prototypes translates into the final product. The progression from Lo-fi prototypes to 
+        the final product was smooth and made coding the webpage much easier. I also learned 
+        more about responsive design and the effectiveness of changing the layout to be responsive
+        to different screen sizes. In the end, I uploaded my newly designed page back into WAVE and examined the results. 
+        Instead of 66 contrast errors, there are now 0, and now only 5 alerts compared to 76. Those 5 alerts refer to
+        empty links due to pages not existing as this redesign only pertained to the home page. 
+      </p>
+      <div class="buttonCenter">
+        <a href="https://rocky-beach-13449.herokuapp.com/" class="linktoFinal" target="_blank">Click here to see the final product</a>
+      </div>
+    </section>
   </body>
 </html>
